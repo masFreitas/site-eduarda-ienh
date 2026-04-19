@@ -44,7 +44,7 @@
     color: rgb(205, 35, 88);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 600px) {
     .postagem-card {
         width: 100%;
     }
@@ -53,5 +53,11 @@
 @media (min-width: 768px) {
     .postagem-card {
         width: calc(50% - 8px);
+    }
+}
+
+@media (min-width: 960px) {
+    .postagem-card {
+        width: calc(33.3333% - 10.67px);
     }
 }
