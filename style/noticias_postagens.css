@@ -5,30 +5,25 @@
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 400;
 }
-
 .subtitulo {
   font-size: 12px;
   margin-bottom: 12px;
   letter-spacing: 0.0075em;
 }
-
 .titulo-principal {
   font-size: 3rem;
 }
-
 .area-destaque {
   padding: 15px;
   margin: auto;
   max-width: 1000px;
 }
-
 .trabalhos-destaque {
   display: flex;
   justify-content: center;
   gap: 10px;
   padding: 10px;
 }
-
 .card-destaque {
   display: block;
   text-decoration: none;
@@ -37,7 +32,6 @@
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
-
 .card-destaque img {
   width: 100%;
   height: 140px;
@@ -45,29 +39,24 @@
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
-
 .card-destaque p {
   margin-top: 5px;
   font-size: 13px;
   font-weight: 200px;
 }
-
 .card-destaque h3 {
   color: #d61e4d;
   font-size: 20px;
   font-weight: 500;
 }
-
 .card-destaque:hover {
   background-color: #f3f0f1;
 }
-
 .ultimos-posts {
   padding: 20px;
   max-width: 1000px;
   margin: auto;
 }
-
 .post {
   display: flex;
   justify-content: space-between;
@@ -76,11 +65,9 @@
   gap: 15px;
   border-bottom: 1px solid #ccc;
 }
-
 .post:last-of-type {
   border-bottom: none;
 }
-
 .conteudo-post a {
   display: block;
   margin-bottom: 8px;
@@ -89,26 +76,22 @@
   color: black;
   letter-spacing: 0.08333em;
 }
-
 .conteudo-post p {
   font-size: 1.5rem;
   color: #d61e4d;
   font-weight: 500;
 }
-
 .imagem-post {
   width: 150px;
   height: 100px;
   flex-shrink: 0;
 }
-
 .imagem-post img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
-.botao-ver-mais {
+.botao {
   display: block;
   text-align: center;
   margin-top: 20px;
@@ -120,37 +103,28 @@
   transition: 0.3s;
   text-transform: uppercase;
 }
-
-.botao-ver-mais:hover {
-  background-color: #f3f0f1;
+.botao:hover {
+  background-color: #bcb9ba;
 }
-
-/* Media query para telas com 600px ou menor */
 @media (max-width: 600px) {
   .trabalhos-destaque {
     flex-direction: column;
     align-items: center;
   }
-
   .titulo-principal {
     font-size: 1.5rem;
   }
-
   .card-destaque {
     width: 100%;
   }
-
   .conteudo-post p {
     font-size: 1.25rem;
   }
 }
-
-/* Media query para telas maiores que 600px */
 @media (min-width: 601px) {
   .trabalhos-destaque {
     flex-direction: row;
   }
-
   .conteudo-post p {
     font-weight: 400;
   }
