@@ -55,6 +55,10 @@
     margin: 0;
 }
 @media (max-width: 600px) {
+    .container-cards {
+        width: 100%;
+    }
+    
     .postagem-card {
         width: 100%;
     }
